@@ -1,0 +1,10 @@
+#!name = 🖥 macOS VPN
+#!desc = 确保虚拟机VPN流量绕过Surge，避免连接失败。
+#!author = Kiddo
+#!system = mac
+#!category = 🌐 VPN
+#!arguments = ip_address:"123.158.55.81/32"
+
+[General]
+skip-proxy = %APPEND% {{{ip_address}}}
+tun-excluded-routes = %APPEND% {{{ip_address}}}
