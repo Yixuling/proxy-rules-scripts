@@ -1,0 +1,8 @@
+# Claude AI 规则
+# 说明：Claude AI 服务相关域名
+
+# ===== Claude AI =====
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com

@@ -1,0 +1,9 @@
+# 规则修正（Unbreak）
+# 说明：修正被误拦截的正常服务
+
+# ===== 代理订阅服务 =====
+# Nexitally 订阅
+DOMAIN,cdn.synergypeak.org
+
+# Tag 订阅
+DOMAIN,link01.nobodys.uk

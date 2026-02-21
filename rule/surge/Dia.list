@@ -1,0 +1,7 @@
+# Dia Browser 规则
+# 说明：Dia 浏览器相关域名
+
+# ===== Dia Browser =====
+DOMAIN-SUFFIX,diabrowser.engineering
+DOMAIN-SUFFIX,dia.so
+DOMAIN-KEYWORD,diabrowser
