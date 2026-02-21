@@ -1,0 +1,13 @@
+#!name=Advertising Block
+#!desc=广告拦截
+#!category=Advertising
+#!author=Kiddo
+
+[URL Rewrite]
+# ========================================
+# 优酷（Youku）
+# ========================================
+^https?:\/\/iyes\.youku\.com\/uts/v\d\/start - reject
+
+[MITM]
+hostname = %APPEND% iyes.youku.com
